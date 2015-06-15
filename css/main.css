@@ -310,9 +310,20 @@ footer .button.hero-button {
 	border-top: 1px solid rgba(255, 255, 255, .2);
 	border-bottom: 1px solid rgba(255, 255, 255, .2);
 	padding-top: 20px;
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+.sitemap ul {
+  list-style: none;
+  position: relative;
+  left: -40px;	
+  margin-top: 10px;
+}
+
+.sitemap li {
+  font-size: 83%;
+  margin-bottom: 10px;
+}
 
 #soc-media-footer {
 	color: #FFF; 
