@@ -204,6 +204,7 @@ border-top: 3px solid rgba(40,0,145, 1);
 padding: 10px;
 border: 1px solid #CCC;
 box-shadow: 0 0 5px #CCC;
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 80%,rgba(0,0,0,.05) 100%);
 }
 
 .carousel-caption {
