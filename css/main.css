@@ -359,3 +359,8 @@ footer .button.hero-button {
   top: -5px;
   position: relative;
 }
+
+.cbp-hrmenu .cbp-hrsub-inner li a {
+	background: none !important;
+	color: #337ab7 !important;
+}
