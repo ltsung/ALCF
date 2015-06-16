@@ -81,7 +81,7 @@ border-radius: 2px;
 	height: 600px;
 	width: 100%;
 /*        background: url('./assets/images/Test.jpg') center center no-repeat; */
-background: url('../assets/images/homepage_lobby.jpg') center center no-repeat;
+background: url('../assets/images/homepage_lobby.jpg') center -30px no-repeat;
 background-size: cover;
 position: absolute;
 top: 0;
@@ -96,7 +96,7 @@ top: 0;
 right: 0;
 bottom: 0;
 left: 0;
-background-image: radial-gradient(rgba(40,0,145, .45), rgba(10,0,85, 1));
+background-image: radial-gradient(rgba(40,0,145, .07), rgba(10,0,85, 1));
 
 
 }
@@ -275,7 +275,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1
 
 footer {
   padding: 40px 100px;
-  background: rgba(20,0,88, 1);
+  background: rgba(30,0,88, 1);
   color: #FFF;
   border-top: 5px solid #3bc492;
 }
@@ -350,7 +350,7 @@ footer .button.hero-button {
 }
 
 .modal-body {
-  padding: 25px;
+  padding: 45px 100px;
 }
 
 
@@ -364,4 +364,21 @@ footer .button.hero-button {
 .cbp-hrmenu .cbp-hrsub-inner li a {
 	background: none !important;
 	color: #337ab7 !important;
+}
+
+
+.modal-dialog {
+  width: 80%;	
+}
+
+.modal-content {
+  border-radius: 2px;
+}
+
+.modal-content p {  
+  color: #333;
+}
+
+.modal-content a {
+	color: #337ab7;	
 }
